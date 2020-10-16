@@ -1,0 +1,27 @@
+package com.travel_agency.controller;
+
+public enum CommandContainer {
+    EMPTY_COMMAND,
+    REGISTER,
+    LOGIN,
+    LOGOUT,
+    TO_REGISTER,
+    TO_LOGIN,
+    UA,
+    EN,
+    CHANGE_LOCALE,
+    VIEW_ALL_VAUCHERS,
+    VIEW_VAUCHERS_BY_COUNTRY,
+    VIEW_VAUCHERS_BY_TOUR_TYPE,
+    CHOOSE_VAUCHER,
+    BOOK_VAUCHER,
+    CANCEL_ORDER,
+    CONTINUE,
+    VIEW_ACCOUNT,
+    UPDATE_BALANCE,
+    TO_USER_MENU,
+    SHOW_ORDER_BY_USER_ID,
+    ADD_VAUCHER,
+    UPDATE_TOUR,
+    UPDATE_DISCOUNT
+}
